@@ -1,0 +1,32 @@
+* {
+    top: 0px;
+    left: 0px;
+    bottom: 0;
+    font-family: 'Unbounded', cursive;
+    color: white;
+}
+
+#container{
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 100%;
+    background-image:url("/static/crowed.webp") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+#img img {
+    height: 355px;
+    width: 259px;
+}
+#about-me {
+    height: 510px;
+    width: 850px;
+    margin-left: 250px;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}

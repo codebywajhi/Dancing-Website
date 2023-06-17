@@ -1,0 +1,50 @@
+extends base.pug
+
+block scripts
+    script(src="/static/index.js")
+
+block style
+    style
+        include ../static/style.css
+
+block content
+    section#upper-sec
+        div.large Welcome to the Dance Club
+        div.small Eat Dance Sleep Repeat
+    section#lower-sec
+        div.sponser Our Section
+        div.card
+            h5 Dance Only
+            div.card-box
+                div.card-img
+                    img(src="/static/Orange2.jpg", alt="there was an img")
+                div.card-content
+                    p this is the most beautiful feeling in the Era
+        div.secondcard
+            h5 Dance with Feel
+            div.card-box
+                div.card-img
+                    img(src="/static/blue.jpg", alt="there was an img")
+                div.card-content
+                    p this is the most beautiful feeling in the Era
+        div.thirdcard
+            h5 Dance with Soul!
+            div.card-box
+                div.card-img
+                    img(src="/static/red.jpg", alt="there was an img")
+                div.card-content
+                    p this is the most beautiful feeling in the Era
+    section#our-sponsers
+            h2 Our Sponsers 
+            div.sponsers-img
+                img(src="/static/msoft.png", alt="there was an img")
+            div.sponsers-img
+                img(src="/static/amazon.png", alt="there was an img")
+            div.sponsers-img
+                img(src="/static/apple.png", alt="there was an img")
+            div.sponsers-img
+                img(src="/static/skype.png", alt="there was an img")
+
+                
+
+

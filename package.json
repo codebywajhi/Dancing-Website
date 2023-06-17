@@ -1,0 +1,22 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "its dancing web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aweosome"
+  ],
+  "author": "wajhi qureshi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "browserify": "^17.0.0",
+    "mongoose": "^7.2.2",
+    "nodemon": "^2.0.22",
+    "pug": "^3.0.2",
+    "slugify": "^1.6.6"
+  }
+}

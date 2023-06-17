@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@700&family=Kaushan+Script&family=Quicksand&family=Roboto&family=Roboto+Slab&family=Rubik:wght@300&family=Unbounded:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@700&family=Kalam&family=Kaushan+Script&family=Quicksand&family=Roboto&family=Roboto+Slab&family=Rubik:wght@300&family=Unbounded:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@700&family=Great+Vibes&family=Kalam&family=Kaushan+Script&family=Quicksand&family=Roboto&family=Roboto+Slab&family=Rubik:wght@300&family=Unbounded:wght@200;300&display=swap');
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    height: 70px;
+    width: 100%;
+    background-color: red;
+    color: white;
+    top: 0;
+    left: 0;
+}
+
+#nav-ul {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+#navbar ul li {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Kalam', cursive;
+    border-radius: 28px;
+
+
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+
+}
+
+#navbar ul li a:hover {
+    color: black;
+
+
+}
+
+#upper-sec {
+    height: 425px;
+    width: 100%;
+}
+
+
+
+#upper-sec {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 57px ;
+    background : url("/static/dancing.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -0.5;
+    opacity: 0.99;
+
+}
+
+#upper-sec .large,
+.small {
+    font-family: 'Kaushan Script', cursive;
+
+}
+
+.large {
+    font-size: 57px;
+}
+
+.small {
+    font-size: 33px;
+}
+
+#lower-sec {
+    height: 475px;
+    width: 100%;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -0.5;
+    opacity: 0.99;
+
+
+}
+
+.sponser {
+    text-align: center;
+    font-size: 32px;
+    padding-top: 20px;
+    font-family: 'Kalam', cursive;
+    font-size: 45px;
+    color: black;
+    font-weight: 600;
+
+}
+
+.card {
+    border: 2px solid black;
+    width: 25%;
+    height: 213px;
+    border-radius: 18px;
+    display: inline-block;
+    margin: 30px;
+    padding-top: 18px;
+
+
+}
+
+.card-img img {
+    margin-top: 11px;
+    height: 130px;
+    width: 120px;
+}
+
+.secondcard {
+    border: 2px solid black;
+    width: 25%;
+    height: 213px;
+    border-radius: 18px;
+    display: inline-block;
+    margin: 30px;
+    padding-top: 12px;
+}
+
+.thirdcard {
+    border: 2px solid black;
+    width: 25%;
+    height: 213px;
+    border-radius: 18px;
+    display: inline-block;
+    margin: 30px;
+    padding-top: 12px;
+}
+
+h5 {
+    font-size: 30px;
+    font-family: 'Great Vibes', cursive;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    margin: 0 14px;
+    margin-bottom: 10px;
+
+}
+
+#logo img {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    height: 65px;
+    margin-left: 35px;
+    margin-bottom: 10px;
+    filter: invert(1);
+}
+
+.card-box {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.card-img {
+    padding: 15px;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+#our-sponsers {
+    height: 320px ;
+    width: 100% ;
+    background-color: pink ;
+    padding-top: 72px ;
+    /* padding-left:100px ; */
+}
+
+.sponsers-img {
+    display: inline;
+    align-items: center;
+    padding: 20px;
+    margin-left: 151px;
+
+}
+
+.sponsers-img img {
+    height: 120px;
+
+}
+
+h2 {
+    font-family: 'Kalam', cursive;
+    font-size: 45px;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-left: 0px ;
+
+}
+
+#footer {
+    height: 57px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Kalam', cursive;
+}
