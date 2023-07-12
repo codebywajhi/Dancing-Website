@@ -2,7 +2,7 @@ const express = require('express');
 
 const app = express();
 
-const port = 3001;
+const port = 3003;
 
 const path = require("path");
 
@@ -16,12 +16,13 @@ async function main() {
    try { 
 
    await mongoose.connect('mongodb://127.0.0.1:27017/contactDance');
+
    console.log("connect to the data base ");
 
-   // use `await mongoose.connect('mongodb://user:password@127.0.0.1:27017/test');` if your database has auth enabled
+
 } catch (error) {
 
-      console.error("Data base connection error : ", error);
+      console.error("Data base connection error : ");
 
    }
 }
@@ -40,7 +41,7 @@ const contactSchema = new mongoose.Schema({
 const Contact = mongoose.model('Contact', contactSchema);
 
 // it will help to run the console.log(req.body)
-app.use(express.urlencoded());
+app.use(express.urlencoded({extended : true }));
 
 //  for serving static file
 app.use("/static", express.static("static"));
@@ -91,7 +92,7 @@ app.post('/contact', (req, res) => {
 
       .catch(() => {
 
-         console.error("Error is data is not save intp the data base", error);
+         // console.error("Error is data is not save intp the data base");
          res.status(400).send("item was not saved to the databse");
 
       });
